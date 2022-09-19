@@ -14,7 +14,7 @@ export default function useAuto(code) {
         console.log(res.data)
     })
       .catch(() => {
-        Window.location = "/";
+        window.location = "/";
       });
   }, [code]);
 }
