@@ -46,7 +46,6 @@ app.post('/login',(req, res) =>{
         expiresIn:data.body.expires_in
     })
   }).catch((err)=>{ 
-    console.log('nvvvv');
     console.log("this:" ,err);
     res.sendStatus(400)})
 })
