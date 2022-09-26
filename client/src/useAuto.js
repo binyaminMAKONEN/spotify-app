@@ -28,10 +28,10 @@ export default function useAuto(code) {
     .post("http://localhost:3001/refresh", { refreshToken })
     .then((res) => {
       console.log(res.data)
-      // setAccessToken(res.data.accessToken);
-      // setRefreshToken(res.data.refreshToken);
-      // setExpiresIn(res.data.expiresIn);
-      // window.history.pushState({},null,"/");
+      setAccessToken(res.data.accessToken);
+      setRefreshToken(res.data.refreshToken);
+      setExpiresIn(res.data.expiresIn);
+      window.history.pushState({},null,"/");
   })
     .catch((err) => {
       window.location = "/";
