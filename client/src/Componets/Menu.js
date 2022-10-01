@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 
 function Menu({title,menuObject}) {
+
+    useEffect(()=>{
+    },[])
   return (
     <div className='menuContainer'>
         <p className='title'>{title}</p>
