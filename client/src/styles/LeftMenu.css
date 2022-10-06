@@ -1,4 +1,5 @@
 .LeftMenu{
+  z-index: 1;
     width: 240px;
     height: 100%d;
     min-height: 100vh;
