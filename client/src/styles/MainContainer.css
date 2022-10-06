@@ -9,7 +9,7 @@
 
 .Banner {
   height: 300px;
-  position: relative;
+  position: relative; 
 }
 
 .Banner .bannerImg {
