@@ -1,5 +1,14 @@
 const Songs = [
     {
+        id: 0,
+        favourite: false,
+        songName: "edan",
+        artist: "El Profesor",
+        song: "/media/cc0-audio/t-rex-roar.mp3",
+        imgSrc:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUhbTiJ2_cDXyZ8aRn7FtimKnEYGZUkaX5Pw&usqp=CAU",
+      },
+    {
       id: 1,
       favourite: false,
       songName: "Bella Ciao",
