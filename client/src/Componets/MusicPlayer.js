@@ -93,7 +93,6 @@ function MusicPlayer({ song, imgSrc, auto }) {
       </div>
       <div className="songAttributes">
         <audio src={song} preload="metadata" ref={audioPlayer} />
-
         <div className="top">
           <div className="left">
             <div className="loved" onClick={changeSongLove}>
