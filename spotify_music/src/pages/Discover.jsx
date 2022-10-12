@@ -22,7 +22,7 @@ const Discover = () =>{
             <select
             onChange={(e)=>{dispatch(selectGenreListId(e.target.value))}}
             value={genreListId || "POP"}
-            className="bg-black text-gray-300
+            className="bg-[#181818] text-gray-300
             p-3 text-sm-rounded-lg outline-none sm:mt-0 mt-5"
             >
                 {

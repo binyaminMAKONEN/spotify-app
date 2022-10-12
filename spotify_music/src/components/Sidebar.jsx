@@ -24,16 +24,16 @@ const NavLinks = ({ handleClick }) => (
 
 const Sidebar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
+//  backdrop-blur-md
   return (
     <>
-      <div className="md:flex hidden flex-col w-[240px] py-10 px-4 bg-[#191624]">
+      <div className="md:flex hidden flex-col w-[240px] py-10 px-4 bg-[#181818]">
         <img src={logo} alt="logo" className="w-full h-14 object-contain" />
         <NavLinks />
       </div>
 
       {/* Mobile sidebar */}
-      <div className="absolute md:hidden block top-6 right-3">
+      <div className="absolute md:hidden block top-6 right-3 z-10">
         {!mobileMenuOpen ? (
           <HiOutlineMenu className="w-6 h-6 mr-2 text-white" onClick={() => setMobileMenuOpen(true)} />
         ) : (
