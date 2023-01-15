@@ -21,7 +21,7 @@ This application is an improved version of Spotify. It has a modern homepage, fu
 
 ## Setup
 1. Clone the repository
-git clone https://github.com/[username]/spotify-clone-app.git
+git clone https://github.com/binyaminMAKONEN/spotify-app.git
 
 
 2. Install dependencies
@@ -58,8 +58,7 @@ npm start
 - Search
 
 ## Deployment
-- The app is deployed on Vercel hosting service at this link: https://spotify-app-lovat.vercel.app/
-- Make sure to setup environment variables for any sensitive information such as API keys.
+- The app is deployed on Vercel hosting service 
 
 ## Contribution
 If you want to contribute to the project, please follow the steps:
@@ -69,12 +68,12 @@ If you want to contribute to the project, please follow the steps:
 4. Push to the branch (git push origin my-feature)
 5. Create a new pull request
 
-## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Conclusion
-This project is an improved version of Spotify and can be used by anyone. It's built using React functional components, Redux Toolkit for state management, Tailwind CSS for responsive design, RapidAPI for data fetching. It uses Spotify API for streaming music. The app is deployed on Vercel hosting service at this link https://spotify-app-lovat.vercel.app/. Feel free to use, modify and contribute to the project.
+This project is an improved version of Spotify and can be used by anyone. It's built using React functional components, Redux Toolkit for state management, Tailwind CSS for responsive design, RapidAPI for data fetching. It uses Spotify API for streaming music.  Feel free to use, modify and contribute to the project.
 
 ## Screenshots
-- Please add screenshots of the application in the `screenshots` folder and reference them in the README
+![spoti](https://user-images.githubusercontent.com/101037019/212550031-f872eba2-a630-4a01-82b2-20e569e5796e.png)
+![spotiMob](https://user-images.githubusercontent.com/101037019/212550044-af6efde2-771e-4654-867f-98fd3997875c.png)
+![spotify](https://user-images.githubusercontent.com/101037019/212550048-8dcf0514-2ffb-4acd-bcf2-b59149b093c2.png)
 
